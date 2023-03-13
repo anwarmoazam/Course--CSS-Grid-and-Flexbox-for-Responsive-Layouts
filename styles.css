@@ -34,7 +34,7 @@ body {
     order: 1;
     flex-basis: 10%;
     /* width: 30%; */
-    flex-grow: 2;
+    /* flex-grow: 2; */
   }
 
   .flex2{

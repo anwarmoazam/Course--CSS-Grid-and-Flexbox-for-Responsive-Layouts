@@ -1,0 +1,9 @@
+ul{
+    display: flex;
+    flex-flow: row;
+
+}
+
+li{
+    flex-basis: 500px;
+}

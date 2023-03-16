@@ -44,10 +44,31 @@ section h2 {
     font-size: 2.5rem;
 }
 
-figcaption{
-    display: block;
-    width: 50px;
+figure{
+    position: relative;
+    margin: 0;
 }
+
+figcaption{
+    /* display: block; */
+    /* width: 50px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.875rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
 
 /* Initial mobile layout: a series of images stacked on top of each other with the figure caption over the image. */
 

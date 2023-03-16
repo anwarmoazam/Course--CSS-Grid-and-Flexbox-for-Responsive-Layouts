@@ -2,6 +2,7 @@
 
 /* Basic figure and caption styling */
 /* Turn off margin, set by browser */
+
 figure {
     margin: 0;
     padding: 0;
@@ -38,6 +39,7 @@ img {
         flex-flow: row wrap;
         justify-content: space-evenly;
         gap: 1%;
+        /* align-content: center; */
     }
 
     figure {
